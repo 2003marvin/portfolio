@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #fafafa;
+  }
+
+  .nav {
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .container {
+    position: relative;
+    width: 975px;
+    height: 54px;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 18px;
+  }
+
+  .icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .logo,
+  .home,
+  .send,
+  .compass,
+  .heart,
+  .profile-img {
+    cursor: pointer;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+  
+  .card img {
+    height: 300px;
+    width: 400px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }
+ 
+  @media (max-width:1198.98px) {
+    ol li{
+        display:inline ;
+        margin-right: 50px;
+        font-size: larger;
+        color:purple;
+    }
+    body{
+        background-color: aqua;
+    }
+    
+}
+
+@media (max-width:767.98px) {
+  ol li{
+      display:inline ;
+      margin-right: 50px;
+      font-size: larger;
+      color: black;
+  }
+  body{
+      background-color: orangered;
+  } 
+  
+}
+
+@media (max-width:879.98px) {
+  ol li{
+      display:inline ;
+      margin-right: 50px;
+      font-size: larger;
+      color: black;
+  }
+  body{
+      background-color: skyblue;
+  } 
+  
+}
